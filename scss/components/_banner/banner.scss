@@ -2,16 +2,42 @@
 
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   height: 800px;
-  padding-top: 300px;
+  padding-top: 200px;
   margin-bottom: 100px;
   margin-top: -100px;
 
   .row {
     text-align: center;
+  }
 
-    .logo-img {
-      background-image: url("../images/Frame_2(1).scg");
+  .logo-img {
+    width: 50%;
+
+    .under,
+    .over,
+    h2 {
+      position: absolute;
     }
+
+    .over {
+      z-index: 2;
+      top: 289px;
+    }
+
+    .under {
+      z-index: 1;
+    }
+
+    h2 {
+      font-size: 38px;
+      line-height: 44px;
+      z-index: 3;
+      color: white;
+      top: 350px;
+      left: 630px;
+      max-width: 500px;
+    }
+
   }
 
 }
