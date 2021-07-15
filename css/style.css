@@ -59,7 +59,6 @@ header #navbarNav .navbar-nav .nav-link:hover {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   height: 800px;
   padding-top: 200px;
-  margin-bottom: 100px;
   margin-top: -100px;
 }
 .banner .row {
@@ -88,6 +87,70 @@ header #navbarNav .navbar-nav .nav-link:hover {
   top: 350px;
   left: 630px;
   max-width: 500px;
+}
+
+.services {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+.services .nav-tabs {
+  flex-direction: column;
+  border: none;
+  padding-bottom: 40px;
+}
+.services .nav-tabs .nav-item {
+  width: 40%;
+  border: none;
+}
+.services .nav-tabs .nav-item a {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.services .nav-tabs .nav-item a:hover {
+  color: #F0145A;
+}
+.services .breadcrumb {
+  color: white;
+  font-size: 17px;
+}
+.services h2 {
+  font-size: 42px;
+  line-height: 50px;
+  color: #F0145A;
+}
+.services .skills {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 60px;
+}
+.services .skills .skills-item {
+  width: calc(100% / 3);
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.services .skills .skills-item img {
+  padding-bottom: 20px;
+}
+.services .skills .skills-item h4 {
+  color: #24A3FF;
+  padding-bottom: 15px;
+}
+.services .skills .skills-item p {
+  color: white;
+}
+
+.team-slide .carousel-item {
+  display: flex;
+}
+.team-slide .carousel-item .team-photo {
+  width: 30%;
+}
+.team-slide .carousel-item .team-photo img {
+  width: 100%;
+}
+.team-slide .carousel-item .team-text {
+  width: 70%;
 }
 
 /*# sourceMappingURL=style.css.map */

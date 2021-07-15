@@ -1,0 +1,20 @@
+.team-slide {
+
+  .carousel-item {
+    display: flex;
+
+    .team-photo {
+      width: 30%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .team-text {
+      width: 70%;
+    }
+
+  }
+
+}
