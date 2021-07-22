@@ -1,9 +1,32 @@
+@charset "UTF-8";
+body {
+  font-family: "TT Norms", "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 89px;
+  z-index: 10;
+}
+header .container {
+  position: relative;
+  align-items: flex-end !important;
+}
 header .navbar-collapse {
   justify-content: flex-end;
 }
 header .header-address {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 9px;
 }
 header .header-address p {
   color: white;
@@ -13,7 +36,6 @@ header .header-address p {
   font-size: 17px;
 }
 header .header-address a {
-  text-decoration: none;
   font-weight: 400;
   padding: 0 10px 3px;
   color: white;
@@ -25,68 +47,89 @@ header .header-address i {
 header .header-address .lang-radio {
   padding-right: 20px;
 }
-header .header-address input {
+header .header-address .lang-radio span {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+header .header-address .lang-radio input {
   display: none;
 }
-header .header-address label {
+header .header-address .lang-radio input:checked + span {
   color: white;
-  background-color: transparent;
+  background-color: #F0145A;
   transition: background-color 0.3s;
   padding: 3px 8px;
   cursor: pointer;
-}
-header .header-address label:hover {
-  background-color: #F0145A;
   border-radius: 10px;
 }
-header #navbarNav .navbar-nav .nav-link {
+header .header-address .phone:before, header .header-address .phone:after {
+  content: "•";
+  color: white;
+  font-size: 20px;
+}
+
+#navbarNav {
+  margin-bottom: -10px;
+}
+#navbarNav .navbar-nav .nav-link {
   color: white;
   font-size: 20px;
   padding-top: 3px;
   transition: background-color 0.3s;
-}
-header #navbarNav .navbar-nav .nav-link:hover {
-  background-color: #F0145A;
   border-radius: 10px;
+}
+#navbarNav .navbar-nav .nav-link:hover {
+  background-color: #F0145A;
 }
 
 @media (max-width: 992px) {
   header .header-address {
     display: none;
   }
+  header .navbar-toggler {
+    line-height: unset;
+  }
+  header .navbar-toggler i {
+    height: 100%;
+    color: white;
+  }
 }
 .banner {
-  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
-  height: 800px;
-  padding-top: 200px;
-  margin-top: -100px;
+  background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+  padding-top: 139px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow-y: hidden;
 }
-.banner .row {
-  text-align: center;
+.banner .center-content {
+  margin-top: -45px;
+  position: relative;
 }
-.banner .logo-img {
-  width: 50%;
-}
-.banner .logo-img .under,
-.banner .logo-img .over,
-.banner .logo-img h2 {
+.banner .center-content:before, .banner .center-content:after {
   position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  width: 100%;
 }
-.banner .logo-img .over {
-  z-index: 2;
-  top: 289px;
+.banner .center-content:before {
+  content: url("../images/Symbol-Long-leg.svg");
 }
-.banner .logo-img .under {
-  z-index: 1;
+.banner .center-content:after {
+  content: url("../images/Frame_2(1).svg");
 }
-.banner .logo-img h2 {
+.banner .center-content p {
   font-size: 38px;
-  line-height: 44px;
-  z-index: 3;
-  color: white;
-  top: 350px;
-  left: 630px;
+  line-height: 45px;
+  text-align: center;
+  color: #FFFFFF;
   max-width: 500px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .services {

@@ -6,6 +6,15 @@
       display: none;
     }
 
+    .navbar-toggler {
+      line-height: unset;
+
+      i {
+        height: 100%;
+        color: white;
+      }
+    }
+
   }
 
 }

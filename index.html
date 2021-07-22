@@ -5,39 +5,55 @@
     <title>hlegals</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/icons-font.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header>
 
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/Logo_Min.svg"></a>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container header-container">
+            <div class="header-address">
+                <div class="lang-radio">
+                    <label>
+                        <input name="lang" type="radio" checked>
+                        <span>УК</span>
+                    </label>
+
+                    <label>
+                        <input name="lang" type="radio">
+                        <span>РУ</span>
+                    </label>
+
+                    <label>
+                        <input name="lang" type="radio">
+                        <span>EN</span>
+                    </label>
+                </div>
+                <div class="address">
+                    <a target="_blank"
+                       href="https://www.google.com.ua/maps/place/%D0%90%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80%D0%BE%D1%81%D0%BF.,+3,+%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0,+%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+65000/@46.4360487,30.7379414,17z/data=!3m1!4b1!4m5!3m4!1s0x40c63396894457b7:0x7f6c5236cbcb70c8!8m2!3d46.436045!4d30.7401301?hl=ru">
+                        Одеса, Адміральський пр.,3
+                    </a>
+                </div>
+                <div class="phone">
+                    <a type="tel:+38(050)3901591" href="#">+38 (050) 390 15 91</a>
+                </div>
+                <div class="social">
+                    <a target="_blank" href="https://www.facebook.com/diia.gov.ua/"><i class="fab fa-facebook"></i></a>
+                </div>
+
+            </div>
+            <a class="navbar-brand" href="#"><img src="images/LogoMin.svg"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
             </button>
 
-            <div class="header-text">
-                <div class="header-address">
-                    <div class="lang-radio">
-                        <input type="radio" id="lang-Choice1"
-                               name="lang" value="УК">
-                        <label for="lang-Choice1">УК</label>
 
-                        <input type="radio" id="lang-Choice2"
-                               name="lang" value="РУ">
-                        <label for="lang-Choice2">РУ</label>
-
-                        <input type="radio" id="lang-Choice3"
-                               name="lang" value="EN">
-                        <label for="lang-Choice3">EN</label>
-                    </div>
-                        <p>Одеса, Адміральський пр.,3</p>
-                        <a type="tel:+38(050)3901591" href="#">+38 (050) 390 15 91</a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                </div>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -57,7 +73,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+
 
         </div>
     </nav>
@@ -69,10 +85,12 @@
     <div class="banner">
         <div class="container">
             <div class="row">
-                <div class="logo-img">
-                    <img class="over" src="images/Symbol-Long-leg.svg" alt="#">
-                    <img class="under" src="images/Frame_2(1).svg" alt="#">
-                    <h2>Системний адміністратор правових рішень</h2>
+                <div class="col-12">
+                   <div class="center-content">
+                       <p>
+                           системний адміністратор правових рішень
+                       </p>
+                   </div>
                 </div>
             </div>
         </div>

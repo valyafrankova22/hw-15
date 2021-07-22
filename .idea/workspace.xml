@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -55,6 +58,11 @@
       <workItem from="1626283987900" duration="914000" />
       <workItem from="1626285365600" duration="6372000" />
       <workItem from="1626374079551" duration="5333000" />
+      <workItem from="1626632435899" duration="8000" />
+      <workItem from="1626633197176" duration="13000" />
+      <workItem from="1626809920205" duration="149000" />
+      <workItem from="1626811046908" duration="652000" />
+      <workItem from="1626908954341" duration="9842000" />
     </task>
     <servers />
   </component>
