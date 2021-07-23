@@ -1,0 +1,32 @@
+.clients {
+
+  h3 {
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #323264;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+      .logo-clients {
+
+        .clients-item {
+          display: flex;
+          height: 120px;
+          align-items: center;
+          justify-content: center;
+
+
+          @for $i from 1 through 12 {
+            &:nth-child(#{$i}) {
+              background-color: nth($clients-bg, $i);
+            }
+          }
+        }
+
+      }
+
+}

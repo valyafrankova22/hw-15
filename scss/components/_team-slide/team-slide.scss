@@ -1,9 +1,15 @@
 .team-slide {
   margin-bottom: 70px;
 
-  .team-btn {
-    background-color: black;
-    height: 5px;
+  .team-indicator {
+    margin-bottom: -50px;
+
+    .team-btn {
+      height: 20px;
+      border-radius: 50%;
+      border: 3px solid $dominant-blue-color;
+      width: 20px;
+    }
   }
 
   .team-item {

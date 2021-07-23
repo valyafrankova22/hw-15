@@ -1,0 +1,75 @@
+.publications {
+    background-color: $block-bg-color;
+  padding-top: 50px;
+  position: relative;
+
+
+    .breadcrumb-public {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: $dominant-blue-color;
+    }
+
+    h2 {
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 50px;
+      color: $dominant-color;
+      padding-bottom: 50px;
+    }
+
+    .p_item_bg {
+      background-color: $main-text-color;
+      border-radius: 8px;
+      margin-bottom: 40px;
+
+      p {
+        padding: 0 20px 10px;
+      }
+
+      h3 {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: $dominant-blue-color;
+        padding: 20px 20px;
+      }
+
+      .p-small {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $slide-text-color;
+        display: block;
+        width: 90%;
+        margin: 0 auto 8px;
+        border-bottom: 4px solid #E6E6F0;
+      }
+
+      .p-big {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+      }
+
+      .more-public {
+        padding: 17px 70px;
+        color: $main-text-color;
+        background-color: $dominant-blue-color;
+        border-radius: 12px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+
+}

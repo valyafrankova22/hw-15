@@ -1,0 +1,48 @@
+.cases {
+  margin: 100px 0 60px;
+
+
+  .cases-bg {
+    background-color: #F5F5FA;
+    border-radius: 12px;
+  }
+
+  .cases-item {
+      border: 2px solid white;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+        .cases-h {
+          border-bottom: 4px solid white;
+          width: 100%;
+          padding: 20px 20px 10px;
+
+            h3 {
+              font-size: 14px;
+              line-height: 17px;
+              letter-spacing: 1px;
+              text-transform: uppercase;
+              color: $dominant-color;
+              font-weight: bold;
+            }
+        }
+
+        .cases-description {
+          font-size: 24px;
+          line-height: 28px;
+          color: #686887;
+          padding-bottom: 20px;
+          padding-top: 48px;
+          font-weight: 600;
+          padding-left: 10px;
+        }
+
+        .cases-client {
+          font-size: 18px;
+          line-height: 26px;
+          color: #B3B3BA;
+          padding-left: 10px;
+        }
+  }
+}
