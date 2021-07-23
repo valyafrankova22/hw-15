@@ -96,32 +96,52 @@
         </div>
     </div>
 
-    <div class="services">
+    <div class="experience">
         <div class="container">
             <div class="row">
-                <div class="tab-menu">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Послідовні</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Клієнтоорінтовані</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Інноваційні</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Бізнес-орієнтовані юристи</a>
-                        </li>
-                    </ul>
+                <div class="d-flex align-items-center exp-tab">
+                    <div class="nav flex-column nav-pills me-3 tab-item" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="link-btn active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Послідовні</button>
+                        <button class="link-btn" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Клієнтоорієнтовані</button>
+                        <button class="link-btn" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Інноваційні</button>
+                        <button class="link-btn" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Бізнес-орієнтовані юристи</button>
+                    </div>
+                    <div class="tab-content tab-item2" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <h3>Перевертаємо уявлення про юридичні послуги</h3>
+                            <p>Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають прийняття ряду важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea co.</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            <h3>Перевертаємо уявлення про юридичні послуги</h3>
+                            <p>Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають прийняття ряду важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea co.</p>
+                        </div>
+                    </div>
                 </div>
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item active" aria-current="page">Послуги> </li>
-                    </ol>
-                </nav>
-                <h2>Що ми вміємо робити краще за інших?</h2>
-                <div class="skills">
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">послуги></li>
+                </ol>
+            </nav>
+
+            <h2>Що ми вміємо робити краще за інших?</h2>
+            <div class="row">
                     <div class="skills-item">
                         <img src="images/Icon.svg" alt="#">
                         <h4>IT та електронна комерція</h4>
@@ -153,8 +173,6 @@
                         <h4>Судове представництво</h4>
                         <p>Невелика компанія, середнього розміру, чи вже лідер ринку? Локальний бізнес або транснаціональна компанія? Маєте власний юридичний відділ, чи ні? </p>
                     </div>
-                </div>
-
             </div>
         </div>
     </div>
@@ -164,41 +182,41 @@
             <div class="row">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active team-btn" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="team-btn" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="team-btn" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item active team-item">
                             <div class="team-photo">
                                 <img src="images/photo.svg" class="d-block w-100" alt="...">
                             </div>
                            <div class="team-text">
                                <h3>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h3>
-                               <p>Олександр Олександровський</p>
-                               <p>Керуючий партнер</p>
+                               <p class="name">Олександр Олександровський</p>
+                               <p class="position">Керуючий партнер</p>
                            </div>
 
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item team-item">
                             <div class="team-photo">
                                 <img src="images/photo.svg" class="d-block w-100" alt="...">
                             </div>
                             <div class="team-text">
                                 <h3>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h3>
-                                <p>Олександр Олександровський</p>
-                                <p>Керуючий партнер</p>
+                                <p class="name">Олександр Олександровський</p>
+                                <p class="position">Керуючий партнер</p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item team-item">
                             <div class="team-photo">
                                 <img src="images/photo.svg" class="d-block w-100" alt="...">
                             </div>
                             <div class="team-text">
                                 <h3>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h3>
-                                <p>Олександр Олександровський</p>
-                                <p>Керуючий партнер</p>
+                                <p class="name">Олександр Олександровський</p>
+                                <p class="position">Керуючий партнер</p>
                             </div>
                         </div>
                     </div>
@@ -220,6 +238,6 @@
 <footer></footer>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

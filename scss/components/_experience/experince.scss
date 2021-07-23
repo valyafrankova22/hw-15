@@ -1,0 +1,47 @@
+.experience {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+
+  .exp-tab {
+    padding: 80px 0;
+  }
+
+  .tab-item {
+    border-right: 3px solid $main-text-color;
+
+    .link-btn {
+      background-color: transparent;
+      color: $tabs-color;
+      border: none;
+      font-size: 42px;
+      line-height: 50px;
+      text-align: right;
+      padding-bottom: 20px;
+      padding-right: 40px;
+
+
+      &:focus {
+        color: $dominant-color;
+        border-right: 3px solid $dominant-color;
+      }
+
+      }
+    }
+  }
+  .tab-item2 {
+
+
+    h3 {
+      font-size: 32px;
+      line-height: 38px;
+      color: $main-text-color;
+      max-width: 700px;
+      padding-bottom: 30px;
+    }
+
+    p {
+      font-size: 21px;
+      line-height: 30px;
+      color: $main-text-color;
+      max-width: 700px;
+    }
+  }

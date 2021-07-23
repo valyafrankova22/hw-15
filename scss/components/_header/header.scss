@@ -23,7 +23,7 @@ header {
     top: 9px;
 
     p {
-      color: white;
+      color: $main-text-color;
       padding:0 10px 3px;
       display: inline-block;
       margin-bottom: 0;
@@ -33,7 +33,7 @@ header {
     a {
       font-weight: 400;
       padding:0 10px 3px;
-      color: white;
+      color: $main-text-color;
       font-size: 17px;
     }
 
@@ -44,7 +44,7 @@ header {
     .lang-radio {
       padding-right: 20px;
       span {
-        color: white;
+        color: $main-text-color;
         font-weight: bold;
         cursor: pointer;
       }
@@ -53,8 +53,8 @@ header {
         display: none;
 
         &:checked + span {
-          color: white;
-          background-color: #F0145A;
+          color: $main-text-color;
+          background-color: $dominant-color;
           transition: background-color 0.3s;
           padding: 3px 8px;
           cursor: pointer;
@@ -67,7 +67,7 @@ header {
       &:before,
       &:after {
         content: '•';
-        color: white;
+        color: $main-text-color;
         font-size: 20px;
       }
     }
@@ -81,14 +81,14 @@ header {
 
     .navbar-nav{
       .nav-link {
-        color: white;
+        color: $main-text-color;
         font-size: 20px;
         padding-top: 3px;
         transition: background-color 0.3s;
         border-radius: 10px;
 
         &:hover {
-          background-color: #F0145A;
+          background-color: $dominant-color;
 
         }
       }

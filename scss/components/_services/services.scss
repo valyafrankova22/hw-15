@@ -1,43 +1,42 @@
 .services {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  padding-top: 70px;
+  padding-bottom: 60px;
+  position: relative;
+  margin-bottom: 50px;
+  border-radius: 0 0 30px 30px;
 
-  .nav-tabs {
-    flex-direction: column;
-    border: none;
-    padding-bottom: 40px;
-
-    .nav-item {
-      width: 40%;
-      border: none;
-
-      a {
-        color: white;
-        font-size: 25px;
-        font-weight: 500;
-        transition: color 0.3s;
-
-        &:hover {
-          color:  #F0145A;
-        }
-      }
-
-    }
+  &:before,
+  &:after {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 10px;
+    margin: 10px auto;
+    border-radius: 0 0 30px 30px;
+    left: 50%;
+    transform: translateX(-50%);
   }
-  .breadcrumb {
-    color: white;
-    font-size: 17px;
+
+  &:before {
+    width: 94%;
+    bottom: -20px;
+    background-color: #CACADB;
+  }
+
+  &:after {
+    width: 90%;
+    bottom: -30px;
+    background-color: #E7E7F2;
+
   }
 
   h2 {
     font-size: 42px;
     line-height: 50px;
-    color: #F0145A;
+    color: $dominant-color;
+    padding-bottom: 50px;
   }
-
-  .skills {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 60px;
 
     .skills-item {
       width: calc(100% / 3);
@@ -49,16 +48,16 @@
       }
 
       h4 {
-        color: #24A3FF;
+        color: $dominant-blue-color;
         padding-bottom: 15px;
       }
 
       p {
-        color: white;
+        color: $main-text-color;
+        font-size: 18px;
+        line-height: 26px;
 
       }
     }
 
   }
-
-}
