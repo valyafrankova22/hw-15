@@ -23,18 +23,15 @@ header {
     top: 9px;
 
     p {
-      color: $main-text-color;
+      @include text(17px, 19px, $main-text-color, normal);
       padding:0 10px 3px;
       display: inline-block;
       margin-bottom: 0;
-      font-size: 17px;
     }
 
     a {
-      font-weight: 400;
+      @include text(17px, 19px, $main-text-color, 400);
       padding:0 10px 3px;
-      color: $main-text-color;
-      font-size: 17px;
     }
 
     i {
@@ -81,8 +78,7 @@ header {
 
     .navbar-nav{
       .nav-link {
-        color: $main-text-color;
-        font-size: 20px;
+        @include text(20px, 21px, $main-text-color, normal);
         padding-top: 3px;
         transition: background-color 0.3s;
         border-radius: 10px;

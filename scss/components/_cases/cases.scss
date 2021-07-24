@@ -19,29 +19,21 @@
           padding: 20px 20px 10px;
 
             h3 {
-              font-size: 14px;
-              line-height: 17px;
+              @include text(14px, 17px, $dominant-color, bold);
               letter-spacing: 1px;
               text-transform: uppercase;
-              color: $dominant-color;
-              font-weight: bold;
             }
         }
 
         .cases-description {
-          font-size: 24px;
-          line-height: 28px;
-          color: #686887;
+          @include text(24px, 28px, #686887, 600);
           padding-bottom: 20px;
           padding-top: 48px;
-          font-weight: 600;
           padding-left: 10px;
         }
 
         .cases-client {
-          font-size: 18px;
-          line-height: 26px;
-          color: #B3B3BA;
+          @include text(18px, 26px, $slide-text-color, normal);
           padding-left: 10px;
         }
   }

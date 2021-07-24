@@ -9,11 +9,9 @@
 
 
     .link-btn {
+      @include text(42px, 50px, $tabs-color, normal);
       background-color: transparent;
-      color: $tabs-color;
       border: none;
-      font-size: 42px;
-      line-height: 50px;
       text-align: right;
       padding-bottom: 20px;
       padding-right: 40px;
@@ -31,17 +29,13 @@
 
 
     h3 {
-      font-size: 32px;
-      line-height: 38px;
-      color: $main-text-color;
+      @include text(32px, 38px, $main-text-color, normal);
       max-width: 700px;
       padding-bottom: 30px;
     }
 
     p {
-      font-size: 21px;
-      line-height: 30px;
-      color: $main-text-color;
+      @include text(21px, 30px, $main-text-color, normal);
       max-width: 700px;
     }
   }

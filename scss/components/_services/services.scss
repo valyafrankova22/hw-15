@@ -32,9 +32,7 @@
   }
 
   h2 {
-    font-size: 42px;
-    line-height: 50px;
-    color: $dominant-color;
+    @include text(42px, 50px, $dominant-color, normal);
     padding-bottom: 50px;
   }
 
@@ -53,10 +51,7 @@
       }
 
       p {
-        color: $main-text-color;
-        font-size: 18px;
-        line-height: 26px;
-
+        @include text(18px, 26px, $main-text-color, normal);
       }
     }
 

@@ -30,17 +30,20 @@ header .header-address {
   top: 9px;
 }
 header .header-address p {
+  font-size: 17px;
+  line-height: 19px;
   color: #FFFFFF;
+  font-weight: normal;
   padding: 0 10px 3px;
   display: inline-block;
   margin-bottom: 0;
-  font-size: 17px;
 }
 header .header-address a {
+  font-size: 17px;
+  line-height: 19px;
+  color: #FFFFFF;
   font-weight: 400;
   padding: 0 10px 3px;
-  color: #FFFFFF;
-  font-size: 17px;
 }
 header .header-address i {
   font-size: 20px;
@@ -74,8 +77,10 @@ header .header-address .phone:before, header .header-address .phone:after {
   margin-bottom: -10px;
 }
 #navbarNav .navbar-nav .nav-link {
-  color: #FFFFFF;
   font-size: 20px;
+  line-height: 21px;
+  color: #FFFFFF;
+  font-weight: normal;
   padding-top: 3px;
   transition: background-color 0.3s;
   border-radius: 10px;
@@ -126,8 +131,9 @@ header .header-address .phone:before, header .header-address .phone:after {
 .banner .center-content p {
   font-size: 38px;
   line-height: 45px;
-  text-align: center;
   color: #FFFFFF;
+  font-weight: normal;
+  text-align: center;
   max-width: 500px;
   margin: 0 auto;
   position: relative;
@@ -145,11 +151,12 @@ header .header-address .phone:before, header .header-address .phone:after {
   padding: 80px 0;
 }
 .experience .tab-item .link-btn {
-  background-color: transparent;
-  color: #B3B3BA;
-  border: none;
   font-size: 42px;
   line-height: 50px;
+  color: #B3B3BA;
+  font-weight: normal;
+  background-color: transparent;
+  border: none;
   text-align: right;
   padding-bottom: 20px;
   padding-right: 40px;
@@ -164,6 +171,7 @@ header .header-address .phone:before, header .header-address .phone:after {
   font-size: 32px;
   line-height: 38px;
   color: #FFFFFF;
+  font-weight: normal;
   max-width: 700px;
   padding-bottom: 30px;
 }
@@ -171,6 +179,7 @@ header .header-address .phone:before, header .header-address .phone:after {
   font-size: 21px;
   line-height: 30px;
   color: #FFFFFF;
+  font-weight: normal;
   max-width: 700px;
 }
 
@@ -206,6 +215,7 @@ header .header-address .phone:before, header .header-address .phone:after {
   font-size: 42px;
   line-height: 50px;
   color: #F0145A;
+  font-weight: normal;
   padding-bottom: 50px;
 }
 .services .skills-item {
@@ -221,9 +231,10 @@ header .header-address .phone:before, header .header-address .phone:after {
   padding-bottom: 15px;
 }
 .services .skills-item p {
-  color: #FFFFFF;
   font-size: 18px;
   line-height: 26px;
+  color: #FFFFFF;
+  font-weight: normal;
 }
 
 .team-slide {
@@ -257,20 +268,22 @@ header .header-address .phone:before, header .header-address .phone:after {
   padding-top: 60px;
 }
 .team-slide .carousel-item .team-text h3 {
-  font-weight: bold;
   font-size: 42px;
   line-height: 50px;
   color: #F0145A;
+  font-weight: bold;
 }
 .team-slide .carousel-item .team-text .name {
   font-size: 18px;
   line-height: 21px;
   color: #B3B3BA;
+  font-weight: normal;
 }
 .team-slide .carousel-item .team-text .position {
   font-size: 16px;
   line-height: 22px;
   color: #B3B3BA;
+  font-weight: normal;
 }
 
 .cases {
@@ -294,34 +307,35 @@ header .header-address .phone:before, header .header-address .phone:after {
 .cases .cases-item .cases-h h3 {
   font-size: 14px;
   line-height: 17px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
   color: #F0145A;
   font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .cases .cases-item .cases-description {
   font-size: 24px;
   line-height: 28px;
   color: #686887;
+  font-weight: 600;
   padding-bottom: 20px;
   padding-top: 48px;
-  font-weight: 600;
   padding-left: 10px;
 }
 .cases .cases-item .cases-client {
   font-size: 18px;
   line-height: 26px;
   color: #B3B3BA;
+  font-weight: normal;
   padding-left: 10px;
 }
 
 .clients h3 {
   font-size: 16px;
   line-height: 17px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
   color: #323264;
   font-weight: bolder;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   text-align: center;
   padding-bottom: 30px;
 }
@@ -373,19 +387,22 @@ header .header-address .phone:before, header .header-address .phone:after {
   padding-top: 50px;
   position: relative;
 }
+.publications .for-shadow {
+  border-bottom: 5px solid #E6E6F0;
+}
 .publications .breadcrumb-public {
-  font-weight: bold;
   font-size: 14px;
   line-height: 17px;
+  color: #24A3FF;
+  font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #24A3FF;
 }
 .publications h2 {
-  font-weight: bold;
   font-size: 42px;
   line-height: 50px;
   color: #F0145A;
+  font-weight: bold;
   padding-bottom: 50px;
 }
 .publications .p_item_bg {
@@ -397,29 +414,29 @@ header .header-address .phone:before, header .header-address .phone:after {
   padding: 0 20px 10px;
 }
 .publications .p_item_bg h3 {
-  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   color: #24A3FF;
+  font-weight: normal;
   padding: 20px 20px;
 }
 .publications .p_item_bg .p-small {
-  font-weight: bold;
   font-size: 12px;
   line-height: 14px;
+  color: #B3B3BA;
+  font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #B3B3BA;
   display: block;
   width: 90%;
   margin: 0 auto 8px;
   border-bottom: 4px solid #E6E6F0;
 }
 .publications .p_item_bg .p-big {
-  font-weight: normal;
   font-size: 16px;
   line-height: 22px;
   color: #000000;
+  font-weight: normal;
 }
 .publications .p_item_bg .more-public {
   padding: 17px 70px;
@@ -431,6 +448,64 @@ header .header-address .phone:before, header .header-address .phone:after {
   bottom: 70px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+footer {
+  background-color: #F5F5FA;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+footer .f-address {
+  display: flex;
+  align-items: start;
+}
+footer .f-address p {
+  font-size: 16px;
+  line-height: 19px;
+  color: #323264;
+  font-weight: normal;
+  padding-right: 10px;
+}
+footer .f-address a {
+  font-size: 12px;
+  line-height: 14px;
+  color: #24A3FF;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+footer .f-address a:before {
+  content: "•";
+  color: #B3B3BA;
+  font-size: 20px;
+  padding-right: 10px;
+}
+footer .f-contact .phone {
+  font-size: 16px;
+  line-height: 19px;
+  color: #46466E;
+  font-weight: bold;
+}
+footer .f-contact .phone:before, footer .f-contact .phone:after {
+  content: "•";
+  color: #B3B3BA;
+  font-size: 20px;
+  padding: 0 10px;
+}
+footer .f-contact .mail {
+  font-size: 16px;
+  line-height: 19px;
+  color: #24A3FF;
+  font-weight: bold;
+}
+footer .item-2 {
+  text-align: end;
+}
+footer .item-2 .right {
+  font-size: 16px;
+  line-height: 19px;
+  color: #B3B3BA;
+  font-weight: normal;
 }
 
 /*# sourceMappingURL=style.css.map */

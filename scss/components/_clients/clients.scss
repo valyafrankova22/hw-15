@@ -1,12 +1,9 @@
 .clients {
 
   h3 {
-    font-size: 16px;
-    line-height: 17px;
+    @include text(16px, 17px, $h-colors, bolder);
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #323264;
-    font-weight: bolder;
     text-align: center;
     padding-bottom: 30px;
   }

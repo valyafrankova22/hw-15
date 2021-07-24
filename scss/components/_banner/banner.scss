@@ -31,10 +31,8 @@
     }
 
     p {
-      font-size: 38px;
-      line-height: 45px;
+      @include text(38px, 45px, $main-text-color, normal);
       text-align: center;
-      color: $main-text-color;
       max-width: 500px;
       margin: 0 auto;
       position: relative;
