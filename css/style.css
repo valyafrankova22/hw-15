@@ -219,7 +219,6 @@ header .header-address .phone:before, header .header-address .phone:after {
   padding-bottom: 50px;
 }
 .services .skills-item {
-  width: calc(100% / 3);
   padding-right: 30px;
   padding-bottom: 30px;
 }
@@ -410,6 +409,9 @@ header .header-address .phone:before, header .header-address .phone:after {
   border-radius: 8px;
   margin-bottom: 40px;
 }
+.publications .p_item_bg .publ-img {
+  width: 100%;
+}
 .publications .p_item_bg p {
   padding: 0 20px 10px;
 }
@@ -450,6 +452,11 @@ header .header-address .phone:before, header .header-address .phone:after {
   transform: translateX(-50%);
 }
 
+@media (max-width: 992px) {
+  .publications .col-none {
+    display: none;
+  }
+}
 footer {
   background-color: #F5F5FA;
   padding-top: 32px;
@@ -506,6 +513,20 @@ footer .item-2 .right {
   line-height: 19px;
   color: #B3B3BA;
   font-weight: normal;
+}
+
+@media (max-width: 992px) {
+  footer .footer-item {
+    text-align: center;
+  }
+  footer .footer-item .f-address {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .footer-item .f-contact {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
