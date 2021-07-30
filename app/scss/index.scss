@@ -1,0 +1,15 @@
+@import "bootstrap/scss/bootstrap";
+@import "animate.css/animate";
+@import url('../../node_modules/bootstrap-icons/font/bootstrap-icons.css');
+
+@import "./common/index";
+
+@import "./components/_header/index";
+@import "./components/_banner/index";
+@import "./components/_experience/index";
+@import "./components/_services/index";
+@import "./components/_team-slide/index";
+@import "./components/_cases/index";
+@import "./components/_clients/index";
+@import "./components/_publications/index";
+@import "./components/_footer/index";
